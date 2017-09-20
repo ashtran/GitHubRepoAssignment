@@ -13,3 +13,5 @@ touch GitHubRepoAssignment.txt
 vim GitHubRepoAssignment.txt
 git add GitHubRepoAssignment.txt
 git commit -m "Added repo steps"
+git status
+git push -u origin master
