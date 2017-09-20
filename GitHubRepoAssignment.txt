@@ -1,0 +1,15 @@
+cd Desktop
+mkdir GitHubRepoAssignment
+cd GitHubRepoAssignment/
+git init
+touch readme.md
+git add readme.md
+git commit -m "Initial Changes"
+git status
+git remote add origin https://github.com/ashtran/GitHubRepoAssignment.git
+git push -u origin master
+git status
+touch GitHubRepoAssignment.txt
+vim GitHubRepoAssignment.txt
+git add GitHubRepoAssignment.txt
+git commit -m "Added repo steps"
